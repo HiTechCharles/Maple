@@ -70,32 +70,38 @@
             this.ItemsCB.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ItemsCB.FormattingEnabled = true;
             this.ItemsCB.Items.AddRange(new object[] {
+            "Brew Coffee",
+            "Brush Teeth",
             "Change Sheets",
             "Clean Bathroom",
             "Clean Litter Box",
             "Clean Out Refrigerator",
             "Complete Homework",
+            "Cook Breakfast",
+            "Cook  Dinner",
             "Create Shopping List",
+            "Dust",
             "Exercise",
             "Feed Animals",
             "Fold Clothes",
             "Get Dressed",
-            "Make Breakfast",
-            "Make Coffee",
-            "Make Dinner",
+            "List Items on eBay",
             "Make Lunch",
             "Plan a menu",
+            "Put Away Clean Dishes",
             "Put Away Groceries",
+            "Organize Pantry",
             "Refill Pill Box",
             "Schedule Transportation",
             "Shop for food",
             "Study",
-            "Take a Shower",
+            "Sweep Floor",
             "Take Medication",
+            "Take a Shower",
             "Vacuum Carpet",
             "Wash Clothes",
             "Wash Dishes"});
-            this.ItemsCB.Location = new System.Drawing.Point(12, 12);
+            this.ItemsCB.Location = new System.Drawing.Point(12, 13);
             this.ItemsCB.Name = "ItemsCB";
             this.ItemsCB.Size = new System.Drawing.Size(404, 47);
             this.ItemsCB.TabIndex = 0;
@@ -105,9 +111,10 @@
             this.ToDoLB.AccessibleName = "Jobs to do";
             this.ToDoLB.FormattingEnabled = true;
             this.ToDoLB.ItemHeight = 39;
-            this.ToDoLB.Location = new System.Drawing.Point(19, 78);
+            this.ToDoLB.Location = new System.Drawing.Point(12, 78);
             this.ToDoLB.Name = "ToDoLB";
             this.ToDoLB.Size = new System.Drawing.Size(500, 589);
+            this.ToDoLB.Sorted = true;
             this.ToDoLB.TabIndex = 4;
             // 
             // CompleteLB
@@ -118,6 +125,7 @@
             this.CompleteLB.Location = new System.Drawing.Point(539, 78);
             this.CompleteLB.Name = "CompleteLB";
             this.CompleteLB.Size = new System.Drawing.Size(500, 589);
+            this.CompleteLB.Sorted = true;
             this.CompleteLB.TabIndex = 5;
             // 
             // CompleteBTN
